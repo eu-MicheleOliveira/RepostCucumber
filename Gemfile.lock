@@ -48,25 +48,12 @@ GEM
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
     public_suffix (3.0.3)
-    rack (2.0.5)
+    rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     regexp_parser (1.2.0)
     report_builder (1.8)
       json (>= 1.8.1)
-    rspec (3.8.0)
-      rspec-core (~> 3.8.0)
-      rspec-expectations (~> 3.8.0)
-      rspec-mocks (~> 3.8.0)
-    rspec-core (3.8.0)
-      rspec-support (~> 3.8.0)
-    rspec-expectations (3.8.2)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.8.0)
-    rspec-mocks (3.8.0)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.8.0)
-    rspec-support (3.8.0)
     rubyzip (1.2.2)
     selenium-webdriver (3.14.1)
       childprocess (~> 0.5)
@@ -82,7 +69,6 @@ DEPENDENCIES
   chromedriver-helper
   cucumber
   report_builder
-  rspec
   selenium-webdriver
 
 BUNDLED WITH
